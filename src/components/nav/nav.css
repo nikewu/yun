@@ -1,0 +1,31 @@
+/* .item {
+    color: #90c9c6
+} */
+.nav {
+    position: relative;
+    overflow: hidden;
+    height: .8rem;
+}
+.navList {
+    position: absolute;
+    display:flex;
+    width:100%;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    cursor: pointer;
+    background-color: #353535;
+}
+.navItem {
+    color: #ffffff;
+    font-size: .32rem;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 .2rem;
+    height:.8rem;
+    line-height: .8rem;
+}
+.active {
+    color: #90c9c6;
+}
